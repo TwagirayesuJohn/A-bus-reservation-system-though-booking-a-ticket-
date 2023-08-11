@@ -1,0 +1,116 @@
+*{margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	outline: none;
+	list-style:none;
+	text-decoration: none;
+	font-family: sans-serif;
+
+}
+
+p{margin-bottom: 15px;
+	font-size: 20px;
+	line-height: 20px;
+	color:lightsalmon;
+}
+
+.main_container{
+	position: relative;
+}
+.navbar{
+	width: 100%;
+	height: 65px;
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+	position: absolute;
+}
+nav_link{
+	font-weight: bolder;
+	font-size: 20px;
+	color: red;
+	text-decoration: none;
+	position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+.logo a{
+	font-size:40px;
+	color:purple;
+	font-style: cursive;
+}
+ .navbar_items,ul,li, a:hover{
+ 	color:;
+ 	text-underline-position: red;
+ 
+ }
+
+.navbar_items ul,li{
+	display:inline-block;
+	text-transform: uppercase;
+	margin: 0 10px;
+
+}
+
+.navbar_items ul ,li, a{
+	color: white;
+}
+.banner_image{
+	background-image:url("black.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+ 
+	width: 100%;
+	height: 600PX;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner_content{
+	text-align: center;
+	color:white; 
+}
+.banner_content h1{
+	text-transform: uppercase;
+	line-height:30px;
+	margin-bottom:15px; 
+
+}
+.banner_content h1 span{
+	color: orange;
+}
+.login{
+	padding: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 50px;
+	background-color: blue;
+}
+
+
+.footer{
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	background-color: orange;
+	padding: 20px 0px;
+	margin-top: 20px;
+}
+.footer a{
+	color: white;
+}
+navbar_items,ul,li, a:hover{
+color:orange;
+font-family: fantasy;
+font-size: 15px;
+
+}
